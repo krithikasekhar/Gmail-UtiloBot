@@ -1,0 +1,29 @@
+[{
+	"url": "https://github.ncsu.edu/api/v3/repos/jsarava/testingrepo/issues/comments/25222",
+	"html_url": "https://github.ncsu.edu/jsarava/testingrepo/issues/1#issuecomment-25222",
+	"issue_url": "https://github.ncsu.edu/api/v3/repos/jsarava/testingrepo/issues/1",
+	"id": 25222,
+	"user": {
+		"login": "jsarava",
+		"id": 8233,
+		"avatar_url": "https://avatars.github.ncsu.edu/u/8233?",
+		"gravatar_id": "",
+		"url": "https://github.ncsu.edu/api/v3/users/jsarava",
+		"html_url": "https://github.ncsu.edu/jsarava",
+		"followers_url": "https://github.ncsu.edu/api/v3/users/jsarava/followers",
+		"following_url": "https://github.ncsu.edu/api/v3/users/jsarava/following{/other_user}",
+		"gists_url": "https://github.ncsu.edu/api/v3/users/jsarava/gists{/gist_id}",
+		"starred_url": "https://github.ncsu.edu/api/v3/users/jsarava/starred{/owner}{/repo}",
+		"subscriptions_url": "https://github.ncsu.edu/api/v3/users/jsarava/subscriptions",
+		"organizations_url": "https://github.ncsu.edu/api/v3/users/jsarava/orgs",
+		"repos_url": "https://github.ncsu.edu/api/v3/users/jsarava/repos",
+		"events_url": "https://github.ncsu.edu/api/v3/users/jsarava/events{/privacy}",
+		"received_events_url": "https://github.ncsu.edu/api/v3/users/jsarava/received_events",
+		"type": "User",
+		"site_admin": false,
+		"ldap_dn": "CN=jsarava,OU=People,DC=wolftech,DC=ad,DC=ncsu,DC=edu"
+	},
+	"created_at": "2017-10-23T05:57:24Z",
+	"updated_at": "2017-10-23T05:57:24Z",
+	"body": "comment one"
+}]

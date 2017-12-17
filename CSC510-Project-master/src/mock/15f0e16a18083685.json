@@ -1,0 +1,191 @@
+{
+ "id": "15f0e16a18083685",
+ "threadId": "15f0e16a18083685",
+ "labelIds": [
+  "CATEGORY_UPDATES",
+  "INBOX"
+ ],
+ "snippet": "asas — You are receiving this because you are subscribed to this thread. View it on GitHub Enterprise or mute the thread.",
+ "historyId": "823749",
+ "internalDate": "1507769884000",
+ "payload": {
+  "partId": "",
+  "mimeType": "multipart/alternative",
+  "filename": "",
+  "headers": [
+   {
+    "name": "Delivered-To",
+    "value": "magrawa4@ncsu.edu"
+   },
+   {
+    "name": "Received",
+    "value": "by 10.159.52.18 with SMTP id q18csp1310264uab;        Wed, 11 Oct 2017 17:58:05 -0700 (PDT)"
+   },
+   {
+    "name": "X-Google-Smtp-Source",
+    "value": "AOwi7QAxVeUZ2VOR+l5M/Rr5oDE/DN7Jn969C7cCDloyTGgVV7hBEMaIwbMbvgjtvGXGAiJFwjwo"
+   },
+   {
+    "name": "X-Received",
+    "value": "by 10.200.34.182 with SMTP id f51mr1252011qta.167.1507769885213;        Wed, 11 Oct 2017 17:58:05 -0700 (PDT)"
+   },
+   {
+    "name": "ARC-Seal",
+    "value": "i=1; a=rsa-sha256; t=1507769885; cv=none;        d=google.com; s=arc-20160816;        b=pcgOSePF6q+h6q2wpmuBe2JFXbVwZR94k4DH4iSriYZ1qXVA4t+GqQihIk2SScKy5z         jMNRB3lnX+I3x5Sj3TCx6BHsJQ5KC3AbTDAN1+B0vkGdsrcUK4US3r7O6z/76wojk3bI         Ko1BEHJhpnlEIBbvtryIb6qcJ97ijbAK2GCkTI2iq+wzTeArAy6UC2BxZWLGNWr9+rsK         OO85u8T5L6C+UG9qh3OxdchX4RHwxm7OHltiqYB6wvrIWnLrDT2/pcEJPxjCVXDseAwq         o1ecgcHdooQrIvI9ui+JcbvFbmCXecE6Dcnu1y59IF3n1GJFJH8s0OVP3fgxKDWDZSBt         xWJw=="
+   },
+   {
+    "name": "ARC-Message-Signature",
+    "value": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;        h=list-unsubscribe:list-post:list-archive:list-id:precedence         :content-transfer-encoding:mime-version:subject:message-id:cc:to         :reply-to:from:date:arc-authentication-results;        bh=ZZJY0vcdAfJSnhZ35ymC0i2Y+E4SrxMi4VQCxKJyiWc=;        b=SyMqN19JKF34+6H1y1INCjz8faJPY/OpOuFLYwv05Wrozl3Oq14iDFi3IIE/gaVmze         LMtZ0w2HLdMTDAdfLb9iFhFGnWQZRHZEQt9+pd/C6CjAR4osKRGG+mt4rbRBiiZigJvI         JrS6YwhNBmEfJU3d+OlH6oEreaGNLwwNA8vAUgP3+1DMm32cZlrCKvZ93J8Bq3mCfF67         ZVSwYFengwP3wrJOByBWjgKkwkXZgnc23TYF/HlFJ9dK5pFDZQJXkwhwBcrJgQ9Vo2fT         jrz8U6BOFihWyrkd56xNTlEBkY8VKbg/6epvBBSy/T2z1PNm/WFsagLXoVn5HB5Dnr52         LMWg=="
+   },
+   {
+    "name": "ARC-Authentication-Results",
+    "value": "i=1; mx.google.com;       spf=pass (google.com: best guess record for domain of nobody@ncsu.edu designates 152.1.225.228 as permitted sender) smtp.mailfrom=nobody@ncsu.edu"
+   },
+   {
+    "name": "Return-Path",
+    "value": "\u003cnobody@ncsu.edu\u003e"
+   },
+   {
+    "name": "Received",
+    "value": "from uni01mo.unity.ncsu.edu (uni01mo.unity.ncsu.edu. [152.1.225.228])        by mx.google.com with ESMTPS id j8si1288562qth.184.2017.10.11.17.58.04        for \u003cmagrawa4@ncsu.edu\u003e        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);        Wed, 11 Oct 2017 17:58:05 -0700 (PDT)"
+   },
+   {
+    "name": "Received-SPF",
+    "value": "pass (google.com: best guess record for domain of nobody@ncsu.edu designates 152.1.225.228 as permitted sender) client-ip=152.1.225.228;"
+   },
+   {
+    "name": "Authentication-Results",
+    "value": "mx.google.com;       spf=pass (google.com: best guess record for domain of nobody@ncsu.edu designates 152.1.225.228 as permitted sender) smtp.mailfrom=nobody@ncsu.edu"
+   },
+   {
+    "name": "Received",
+    "value": "from github.ncsu.edu (engr-git-202.eos.ncsu.edu [152.1.0.44]) by uni01mo.unity.ncsu.edu (8.14.4/8.14.4/Nv6.2010.0805) with ESMTP id v9C0w4CQ020954 (version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-GCM-SHA384 bits=256 verify=OK) for \u003cmagrawa4@ncsu.edu\u003e; Wed, 11 Oct 2017 20:58:04 -0400"
+   },
+   {
+    "name": "Date",
+    "value": "Wed, 11 Oct 2017 20:58:04 -0400"
+   },
+   {
+    "name": "From",
+    "value": "magrawa4 \u003cnobody@ncsu.edu\u003e"
+   },
+   {
+    "name": "Reply-To",
+    "value": "\"asingh26/SE1\" \u003cnobody@ncsu.edu\u003e"
+   },
+   {
+    "name": "To",
+    "value": "\"asingh26/SE1\" \u003cnobody@ncsu.edu\u003e"
+   },
+   {
+    "name": "Cc",
+    "value": "magrawa4 \u003cmagrawa4@ncsu.edu\u003e, Your activity \u003cyour_activity@engr-git-202.eos.ncsu.edu\u003e"
+   },
+   {
+    "name": "Message-ID",
+    "value": "\u003casingh26/SE1/issues/9@github.ncsu.edu\u003e"
+   },
+   {
+    "name": "Subject",
+    "value": "[asingh26/SE1] hhh (#9)"
+   },
+   {
+    "name": "Mime-Version",
+    "value": "1.0"
+   },
+   {
+    "name": "Content-Type",
+    "value": "multipart/alternative; boundary=\"--==_mimepart_59debe1c9e3e4_81c23f83886ccf78640d0\"; charset=UTF-8"
+   },
+   {
+    "name": "Content-Transfer-Encoding",
+    "value": "7bit"
+   },
+   {
+    "name": "Precedence",
+    "value": "list"
+   },
+   {
+    "name": "X-GitHub-Sender",
+    "value": "magrawa4"
+   },
+   {
+    "name": "X-GitHub-Recipient",
+    "value": "magrawa4"
+   },
+   {
+    "name": "X-GitHub-Reason",
+    "value": "your_activity"
+   },
+   {
+    "name": "List-ID",
+    "value": "asingh26/SE1 \u003cSE1.asingh26.github.ncsu.edu\u003e"
+   },
+   {
+    "name": "List-Archive",
+    "value": "https://github.ncsu.edu/asingh26/SE1"
+   },
+   {
+    "name": "List-Post",
+    "value": "\u003cmailto:nobody@ncsu.edu\u003e"
+   },
+   {
+    "name": "List-Unsubscribe",
+    "value": "\u003cmailto:unsub+000020e8a54da721ae469f27bd58abc2c33eacb0bd9dd4d192cf0000000115f6801c92a169cd8711@reply.github.ncsu.edu\u003e, \u003chttps://github.ncsu.edu/notifications/unsubscribe/AAAg6BNL_YAjKUPp62htjw4aDghiYcaPks5srWQcgaJpZM2OeA==\u003e"
+   },
+   {
+    "name": "X-Auto-Response-Suppress",
+    "value": "All"
+   },
+   {
+    "name": "X-GitHub-Recipient-Address",
+    "value": "magrawa4@ncsu.edu"
+   }
+  ],
+  "body": {
+   "size": 0
+  },
+  "parts": [
+   {
+    "partId": "0",
+    "mimeType": "text/plain",
+    "filename": "",
+    "headers": [
+     {
+      "name": "Content-Type",
+      "value": "text/plain; charset=UTF-8"
+     },
+     {
+      "name": "Content-Transfer-Encoding",
+      "value": "7bit"
+     }
+    ],
+    "body": {
+     "size": 156,
+     "data": "YXNhcw0KDQotLSANCllvdSBhcmUgcmVjZWl2aW5nIHRoaXMgYmVjYXVzZSB5b3UgYXJlIHN1YnNjcmliZWQgdG8gdGhpcyB0aHJlYWQuDQpWaWV3IGl0IG9uIEdpdEh1YiBFbnRlcnByaXNlOg0KaHR0cHM6Ly9naXRodWIubmNzdS5lZHUvYXNpbmdoMjYvU0UxL2lzc3Vlcy85"
+    }
+   },
+   {
+    "partId": "1",
+    "mimeType": "text/html",
+    "filename": "",
+    "headers": [
+     {
+      "name": "Content-Type",
+      "value": "text/html; charset=UTF-8"
+     },
+     {
+      "name": "Content-Transfer-Encoding",
+      "value": "7bit"
+     }
+    ],
+    "body": {
+     "size": 1631,
+     "data": "PHA-YXNhczwvcD4NCg0KPHAgc3R5bGU9ImZvbnQtc2l6ZTpzbWFsbDstd2Via2l0LXRleHQtc2l6ZS1hZGp1c3Q6bm9uZTtjb2xvcjojNjY2OyI-Jm1kYXNoOzxiciAvPllvdSBhcmUgcmVjZWl2aW5nIHRoaXMgYmVjYXVzZSB5b3UgYXJlIHN1YnNjcmliZWQgdG8gdGhpcyB0aHJlYWQuPGJyIC8-PGEgaHJlZj0iaHR0cHM6Ly9naXRodWIubmNzdS5lZHUvYXNpbmdoMjYvU0UxL2lzc3Vlcy85Ij5WaWV3IGl0IG9uIEdpdEh1YiBFbnRlcnByaXNlPC9hPiBvciA8YSBocmVmPSJodHRwczovL2dpdGh1Yi5uY3N1LmVkdS9ub3RpZmljYXRpb25zL3Vuc3Vic2NyaWJlLWF1dGgvQUFBZzZEdmNyY0ttYkk5QW5NRTRFa3IxNzJhWGVlT2prczVzcldRY2dhSnBaTTJPZUE9PSI-bXV0ZSB0aGUgdGhyZWFkPC9hPi48aW1nIGFsdD0iIiBoZWlnaHQ9IjEiIHNyYz0iaHR0cHM6Ly9naXRodWIubmNzdS5lZHUvbm90aWZpY2F0aW9ucy9iZWFjb24vQUFBZzZIbVVZTW0yU0dkYm5CNnBXcUNJZURINEtvcFVrczVzcldRY2dhSnBaTTJPZUE9PS5naWYiIHdpZHRoPSIxIiAvPjwvcD4NCjxkaXYgaXRlbXNjb3BlIGl0ZW10eXBlPSJodHRwOi8vc2NoZW1hLm9yZy9FbWFpbE1lc3NhZ2UiPg0KPGRpdiBpdGVtcHJvcD0iYWN0aW9uIiBpdGVtc2NvcGUgaXRlbXR5cGU9Imh0dHA6Ly9zY2hlbWEub3JnL1ZpZXdBY3Rpb24iPg0KICA8bGluayBpdGVtcHJvcD0idXJsIiBocmVmPSJodHRwczovL2dpdGh1Yi5uY3N1LmVkdS9hc2luZ2gyNi9TRTEvaXNzdWVzLzkiPjwvbGluaz4NCiAgPG1ldGEgaXRlbXByb3A9Im5hbWUiIGNvbnRlbnQ9IlZpZXcgSXNzdWUiPjwvbWV0YT4NCjwvZGl2Pg0KPG1ldGEgaXRlbXByb3A9ImRlc2NyaXB0aW9uIiBjb250ZW50PSJWaWV3IHRoaXMgSXNzdWUgb24gR2l0SHViIEVudGVycHJpc2UiPjwvbWV0YT4NCjwvZGl2Pg0KDQo8c2NyaXB0IHR5cGU9ImFwcGxpY2F0aW9uL2pzb24iIGRhdGEtc2NvcGU9ImluYm94bWFya3VwIj57ImFwaV92ZXJzaW9uIjoiMS4wIiwicHVibGlzaGVyIjp7ImFwaV9rZXkiOm51bGwsIm5hbWUiOiJHaXRIdWIifSwiZW50aXR5Ijp7ImV4dGVybmFsX2tleSI6ImdpdGh1Yi9hc2luZ2gyNi9TRTEiLCJ0aXRsZSI6ImFzaW5naDI2L1NFMSIsInN1YnRpdGxlIjoiR2l0SHViIHJlcG9zaXRvcnkiLCJtYWluX2ltYWdlX3VybCI6Imh0dHBzOi8vY2xvdWQuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2Fzc2V0cy8xNDM0MTgvMTc0OTU4MzkvYTUwNTRlYWMtNWQ4OC0xMWU2LTk1ZmMtNzI5MDg5MmM3YmI1LnBuZyIsImF2YXRhcl9pbWFnZV91cmwiOiJodHRwczovL2Nsb3VkLmdpdGh1YnVzZXJjb250ZW50LmNvbS9hc3NldHMvMTQzNDE4LzE1ODQyMTY2LzdjNzJkYjM0LTJjMGItMTFlNi05YWVkLWI1MjQ5ODExMjc3Ny5wbmciLCJhY3Rpb24iOnsibmFtZSI6Ik9wZW4gaW4gR2l0SHViIiwidXJsIjoiaHR0cHM6Ly9naXRodWIubmNzdS5lZHUvYXNpbmdoMjYvU0UxIn19LCJ1cGRhdGVzIjp7InNuaXBwZXRzIjpbeyJpY29uIjoiREVTQ1JJUFRJT04iLCJtZXNzYWdlIjoiaGhoICgjOSkifV0sImFjdGlvbiI6eyJuYW1lIjoiVmlldyBJc3N1ZSIsInVybCI6Imh0dHBzOi8vZ2l0aHViLm5jc3UuZWR1L2FzaW5naDI2L1NFMS9pc3N1ZXMvOSJ9fX08L3NjcmlwdD4="
+    }
+   }
+  ]
+ },
+ "sizeEstimate": 6014
+}
+

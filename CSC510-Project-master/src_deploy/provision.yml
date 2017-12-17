@@ -1,0 +1,33 @@
+- name: EC2 Setup and Tasks
+  hosts: nodes
+  vars:
+   REPO: "xxxx"
+  sudo: yes
+  remote_user: ubuntu
+  gather_facts: yes
+  environment:
+   SLACK_TOKEN: xxxxx
+  tasks:
+  
+   - name: Install git, nodejs, npm
+     apt: pkg={{item}} state=present update_cache=true cache_valid_time=3600
+     with_items:
+          - git
+          - nodejs-legacy
+          - npm
+   - name: remove repo if already there
+     shell: rm -fr /home/ubuntu/CSC510-Project/
+   - name: Link node to nodejs
+     command: ln -sf /usr/bin/nodejs /usr/bin/node
+   - name: Install forever
+     npm: name=forever state=present global=yes
+   - name: Clone project Repo from github
+     git: repo={{REPO}} dest=/home/ubuntu/CSC510-Project
+   - name: Give permissions
+     shell: chmod 777 -R /home/ubuntu/CSC510-Project/
+   - name: Install NPM Packages
+     npm: path=/home/ubuntu/CSC510-Project/src_service/
+   - name: start bot
+     command: chdir=/home/ubuntu/CSC510-Project/src_service/ {{ item }}
+     with_items:
+     - forever start bot.js
